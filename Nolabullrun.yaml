@@ -14,6 +14,6 @@ seed_examples:
   task_descritption: 'Training set on New Orleans Running of the Bulls celebration'
   document: 
     repo: https://github.com/lkerriso/Tester.git
-    commit: 
+    commit: 83c9614
     patterns:
       - Info_Source_NolaBullRun.md
