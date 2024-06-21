@@ -1,0 +1,19 @@
+created_by: lkerriso
+domain: events
+seed_examples:
+- answer: The Running of the Bulls in New Orleans takes place in July
+  question: When does the Running of the Bulls in New Orleans take place?
+- answer: Rollar Derby Women on rollar skates chase runners through the streets of New Orleans
+  question: What occurs during the Running of the Bulls in New Orleans?
+- answer: Thousands of runners participate in the running of the bulls in New Orleans.
+  question: How many runners participate in the running of the bulls in New Orleans?
+- answer: After the race participants continue celebrating at bars and the warehouse district
+  question: what occurs after the race?
+- ansewr: New Orleans hosts a version of Spain’s Encierro de Pamplona.
+  question: What event inspires New Orleans Running of the Bulls?
+  task_descritption: 'Training set on New Orleans Running of the Bulls celebration'
+  document: 
+    repo: https://github.com/lkerriso/Tester.git
+    commit: 
+    patterns:
+      - Info_Source_NolaBullRun.md
