@@ -1,25 +1,17 @@
-version: 2
-task_description: 'Teach the model about the New Orleans version of The Running of the Bulls'
 created_by: lkerriso
 domain: Nola_events
 seed_examples:
-  - answer: |
-      The Running of the Bulls in New Orleans takes place in July
+  - answer: The Running of the Bulls in New Orleans takes place in July
     question: When does the Running of the Bulls in New Orleans take place?
-  - answer: |
-      Roller Derby Women dressed up like bulls and carrying plastic bats chase runners through the streets of New Orleans while on roller skates
+  - answer: Roller Derby Women dressed as bulls chase runners on roller skates
     question: What occurs during the Running of the Bulls in New Orleans?
-  - answer: |
-      Thousands of runners participate in the running of the bulls in New Orleans
+  - answer: Thousands of runners participate in the running of the bulls in New Orleans
     question: How many runners participate in the running of the bulls in New Orleans?
-  - answer: |
-      After the race participants continue celebrating at bars and the warehouse district
+  - answer: After the race participants continue celebrating at bars and the warehouse district
     question: What occurs after the race?
-  - answer: |
-      New Orleans hosts a version of Spain's Encierro de Pamplona.
+  - answer: New Orleans hosts a version of Spains Encierro de Pamplona.
     question: What event inspires New Orleans Running of the Bulls?
-document:
+task_description: 'Teach the model about the New Orleans version of The Running of the Bulls'
+document: Info_Source_NolaBullRun.md
   repo: https://github.com/lkerriso/Tester.git
-  commit: b9f091f
-  patterns:
-    - Info_Source_NolaBullRun.md
+  commit: 8d8438
