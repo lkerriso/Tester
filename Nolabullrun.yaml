@@ -1,4 +1,4 @@
-version: 2
+version: 8
 task_description: 'Teach the model about the New Orleans version of The Running of the Bulls'
 created_by: lkerriso
 domain: Nola_events
@@ -10,11 +10,11 @@ seed_examples:
   - question: How many runners participate in the running of the bulls in New Orleans?
     answer: Thousands of runners participate in the running of the bulls in New Orleans
   - question: What occurs after the race?
-    answer: After the race participants continue celebrating at bars and the warehouse district
+    answer: After the race participants continue celebrating at bars in the warehouse district
   - question: What event inspires New Orleans Running of the Bulls?
     answer: New Orleans hosts a version of Spain’s Encierro de Pamplona.
 document:
   repo: https://github.com/lkerriso/Tester.git
-  commit: 2ea474a
+  commit: 4e0a422
   patterns:
     - Info_Source_NolaBullRun.md
