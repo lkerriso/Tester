@@ -14,4 +14,4 @@ seed_examples:
 task_description: 'Teach the model about the New Orleans version of The Running of the Bulls'
 document: Info_Source_NolaBullRun.md
   repo: https://github.com/lkerriso/Tester.git
-  commit: 8d8438
+  commit: 2ea474a
