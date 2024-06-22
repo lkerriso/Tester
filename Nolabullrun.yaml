@@ -18,7 +18,7 @@ seed_examples:
   - question: What event inspires New Orleans Running of the Bulls?
     answer: |
       New Orleans hosts a version of Spain’s Encierro de Pamplona.
-  - question: 
+  - question: What is an interesting fact about Las Vegas slot machine payouts?
     answer: The largest slot machine payout in Las Vegas is $39,713,982.25.
   - question: How much was the record-breaking Las Vegas jackpot worth in British pounds?
     answer: The $39,713,982.25 jackpot won in Las Vegas on March 21, 2003 was equivalent to £25,361,761
