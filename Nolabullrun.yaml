@@ -3,27 +3,23 @@ task_description: 'Teach the model about the New Orleans version of The Running 
 created_by: lkerriso
 domain: Nola_events
 seed_examples:
-  - question: When does the Running of the Bulls in New Orleans take place?
-    answer: |
+  - answer: |
       The Running of the Bulls in New Orleans takes place in July
-  - question: What occurs during the Running of the Bulls in New Orleans?
-    answer: |
-      Rollar Derby Women dressed up like bulls and carrying plastic bats chase runners through the streets of New Orleans while on rollar skates 
-  - question:  How many runners participate in the running of the bulls in New Orleans?
-    answer: |
+    question: When does the Running of the Bulls in New Orleans take place?
+  - answer: |
+      Roller Derby Women dressed up like bulls and carrying plastic bats chase runners through the streets of New Orleans while on roller skates 
+    question: What occurs during the Running of the Bulls in New Orleans?
+  - answer: |
       Thousands of runners participate in the running of the bulls in New Orleans
-  - question: what occurs after the race?
-    answer: |
+    question: How many runners participate in the running of the bulls in New Orleans?
+  - answer: |
       After the race participants continue celebrating at bars and the warehouse district
-  - question: What event inspires New Orleans Running of the Bulls?
-    answer: |
+    question: What occurs after the race?
+  - answer: |
       New Orleans hosts a version of Spain’s Encierro de Pamplona.
-  - question: What is an interesting fact about Las Vegas slot machine payouts?
-    answer: The largest slot machine payout in Las Vegas is $39,713,982.25.
-  - question: How much was the record-breaking Las Vegas jackpot worth in British pounds?
-    answer: The $39,713,982.25 jackpot won in Las Vegas on March 21, 2003 was equivalent to £25,361,761
-  document: 
-    repo: https://github.com/lkerriso/Tester.git
-    commit: bb52e1b
-    patterns:
-      - Info_Source_NolaBullRun.md
+    question: What event inspires New Orleans Running of the Bulls?
+document: 
+  repo: https://github.com/lkerriso/Tester.git
+  commit: bb52e1b
+  patterns:
+    - Info_Source_NolaBullRun.md
