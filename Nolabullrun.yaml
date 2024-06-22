@@ -15,6 +15,6 @@ seed_examples:
     answer: New Orleans hosts a version of Spain’s Encierro de Pamplona.
 document:
   repo: https://github.com/lkerriso/Tester.git
-  commit: f05eca0
+  commit: d8191eb
   patterns:
     - Info_Source_NolaBullRun.md
