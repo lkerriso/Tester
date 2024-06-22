@@ -7,7 +7,7 @@ seed_examples:
       The Running of the Bulls in New Orleans takes place in July
     question: When does the Running of the Bulls in New Orleans take place?
   - answer: |
-      Roller Derby Women dressed up like bulls and carrying plastic bats chase runners through the streets of New Orleans while on roller skates 
+      Roller Derby Women dressed up like bulls and carrying plastic bats chase runners through the streets of New Orleans while on roller skates
     question: What occurs during the Running of the Bulls in New Orleans?
   - answer: |
       Thousands of runners participate in the running of the bulls in New Orleans
@@ -16,9 +16,9 @@ seed_examples:
       After the race participants continue celebrating at bars and the warehouse district
     question: What occurs after the race?
   - answer: |
-      New Orleans hosts a version of Spain’s Encierro de Pamplona.
+      New Orleans hosts a version of Spain's Encierro de Pamplona.
     question: What event inspires New Orleans Running of the Bulls?
-document: 
+document:
   repo: https://github.com/lkerriso/Tester.git
   commit: 8d84380
   patterns:
