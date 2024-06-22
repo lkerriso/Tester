@@ -20,6 +20,6 @@ seed_examples:
     question: What event inspires New Orleans Running of the Bulls?
 document:
   repo: https://github.com/lkerriso/Tester.git
-  commit: 8d84380
+  commit: b9f091f
   patterns:
     - Info_Source_NolaBullRun.md
