@@ -24,6 +24,6 @@ seed_examples:
     answer: The $39,713,982.25 jackpot won in Las Vegas on March 21, 2003 was equivalent to £25,361,761
   document: 
     repo: https://github.com/lkerriso/Tester.git
-    commit: 54d7a7a
+    commit: d0de327
     patterns:
       - Info_Source_NolaBullRun.md
