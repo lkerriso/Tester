@@ -1,4 +1,4 @@
-version: 9
+version: 2
 task_description: 'Teach the model about the New Orleans version of The Running of the Bulls'
 created_by: lkerriso
 domain: Nola_events
