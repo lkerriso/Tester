@@ -1,0 +1,40 @@
+created_by: instructlab-team
+domain: instructlab
+seed_examples:
+  - context: |
+      The 2024 Summer Olympics were held in Paris, France. The United States competed in various events and earned numerous medals, including gold, silver, and bronze.
+    questions_and_answers:
+      - question: |
+          Where were the 2024 Olympics held?
+        answer: |
+          The 2024 Summer Olympics were held in Paris, France.
+      - question: |
+          How many gold medals did the US win in the 2024 Olympics?
+        answer: |
+          The United States won 50 gold medals in the 2024 Summer Olympics.
+      - question: |
+          What other medals did the US win in 2024?
+        answer: |
+          Besides gold, the United States also won 40 silver and 30 bronze medals at the 2024 Olympics.
+  - context: |
+      The Olympics showcase various sports, from athletics to swimming. The US has a strong history in events like track and field, swimming, and gymnastics.
+    questions_and_answers:
+      - question: |
+          In which events did the US win the most gold medals in 2024?
+        answer: |
+          The US won the most gold medals in swimming, track and field, and gymnastics events.
+      - question: |
+          How many medals did the US win in swimming?
+        answer: |
+          The US won 15 gold medals, 10 silver, and 8 bronze medals in swimming events.
+      - question: |
+          Did the US win any gold medals in gymnastics?
+        answer: |
+          Yes, the US won 7 gold medals in gymnastics at the 2024 Olympics.
+document_outline: |
+  Details about the US participation in the 2024 Summer Olympics, including the number of gold medals won and achievements in various events.
+document:
+  repo: https://github.com/rhai-code/olympics_2024_knowledge
+  commit: example_commit_2
+  patterns:
+    - olympics_2024.md
