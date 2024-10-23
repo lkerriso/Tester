@@ -1,0 +1,44 @@
+created_by: instructlab-team
+domain: instructlab
+seed_examples:
+  - context: |
+      A thesaurus is a tool used to find synonyms and antonyms of words. It provides multiple words that have similar meanings, allowing users to expand their vocabulary and choose the best word for a given context.
+    questions_and_answers:
+      - question: |
+          What is a thesaurus?
+        answer: |
+          A thesaurus is a tool used to find synonyms and antonyms of words.
+      - question: |
+          Can you give me a synonym for "happy"?
+        answer: |
+          Sure! Some synonyms for "happy" are "joyful," "content," "cheerful," and "pleased."
+      - question: |
+          What’s an antonym for "sad"?
+        answer: |
+          An antonym for "sad" is "happy" or "joyful."
+      - question: |
+          How can I use a thesaurus effectively?
+        answer: |
+          To use a thesaurus effectively, look for synonyms that match the context of your sentence and select one that best fits the tone and meaning you want to convey.
+  - context: |
+      Synonyms and antonyms can vary depending on the context of a word. For example, the word "bright" could mean intelligent or full of light, so it’s important to consider the context when choosing a synonym.
+    questions_and_answers:
+      - question: |
+          What are some synonyms for "bright" when referring to intelligence?
+        answer: |
+          Some synonyms for "bright" in the context of intelligence are "clever," "sharp," "smart," and "brilliant."
+      - question: |
+          What about synonyms for "bright" in the context of light?
+        answer: |
+          Synonyms for "bright" in the context of light are "luminous," "radiant," "shining," and "glowing."
+      - question: |
+          Can you provide an antonym for "dark"?
+        answer: |
+          An antonym for "dark" is "bright" or "light."
+document_outline: |
+  Details on how to use a thesaurus, find synonyms and antonyms, and choose the right word based on context.
+document:
+  repo: https://github.com/rhai-code/thesaurus_knowledge
+  commit: example_commit_1
+  patterns:
+    - thesaurus.md
